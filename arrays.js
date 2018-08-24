@@ -39,5 +39,6 @@ function destructivelyRemoveElementFromEndOfArray(array) {
 }
 
 function removeElementFromEndOfArray(array) {
-  var endElementRemovedArray = 
+  var endElementRemovedArray = array.slice(0,array.length - 1);
+  return endElementRemovedArray;
 }
